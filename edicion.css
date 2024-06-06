@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcfd;
+}
+header {
+    background-color: #070707;
+    color: #fff;
+    padding: 5rem;
+    text-align: left;
+  display:flex ;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+
+    display: flex;
+    justify-content: left;
+    background-color: #0633668e;
+}
+nav a {
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #555;
+}
+.container {
+    padding: 2rem;
+}
+.services, .gallery, .contact {
+    margin-bottom: 2rem;
+}
+.gallery img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+header {
+
+
+
+}
+
+ 

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UFT-8">
+    <title>Panel Administrativo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="edicion.css">
+    <link rel="stylesheet" href="tablas.csss">
+
+<body>
+    <header>
+        <h1>Studio AF</h1>
+        <h2>"La mejor opcion para tus recuerdos capturada en fotos"</h2>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="registrar.html">Registrarse</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="citas.html">Citas</a>
+        <a href="contactanos.html">Contactanos</a>
+    </nav>
+    <div class="Agregar cita">
+        <h1>Registro de servicios</h1>
+
+        <form>
+            <div class="form group">
+         <label for="nombre">ingrese su nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+            </div>
+            <div class="form-group">
+                <label for="servicio">¿que servicio requiere?</label>
+                <select id="servicio" name="servicio">
+                    <option value="bodas">bodas</option>
+                    <option value="fiestas infantiles">fiestas infantiles</option>
+                    <option value="graduaciones">graduaciones</option>
+                    <option value="funerales">funerales</option>
+                    <option value="baby shower">baby shower</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="ubicacion">Ingrese su ubicacion:</label>
+                <input type="text" id="ubicacion" name="ubicacion" placeholder="Ubicacion necesaria" required>
+            </div>
+            <div class="btn-agregar">
+                <a href="servicios.html">
+                    <button><i class="fa fa-plus"></i>registra servicio</button>
+                </a>
+        </form>
+    </div>
+</body>
+<footer>
+    <p>&copy; Todos los derechos reservados </p>
+</footer>
+</head>
+
+</html>
